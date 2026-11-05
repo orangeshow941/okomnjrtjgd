@@ -1,0 +1,12 @@
+ok = (1,0,1,0,0,0,1)
+sun = 0
+o = 0
+for i in range (0,7):
+    if(ok[i]==0):
+        o+=1
+    else:
+        sun+=1
+if(sun>o):
+    print("it a sun")
+else:
+    print("no sun:(")
